@@ -1,0 +1,23 @@
+info Starting LineItemState CSV conversion
+ERR! RangeError: Row length does not match headers
+ERR!     at CsvParser.parseLine (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/csv-parser/index.js:165:17)
+ERR!     at CsvParser._transform (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/csv-parser/index.js:253:16)
+ERR!     at CsvParser.Transform._read (_stream_transform.js:191:10)
+ERR!     at CsvParser.Transform._write (_stream_transform.js:179:12)
+ERR!     at doWrite (_stream_writable.js:403:12)
+ERR!     at writeOrBuffer (_stream_writable.js:387:5)
+ERR!     at CsvParser.Writable.write (_stream_writable.js:318:11)
+ERR!     at /Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/highland/lib/index.js:640:33
+ERR!     at Stream.s._send (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/highland/lib/index.js:1560:9)
+ERR!     at Stream.write (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/highland/lib/index.js:1661:18)
+ERR!  RangeError: Row length does not match headers
+ERR!     at CsvParser.parseLine (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/csv-parser/index.js:165:17)
+ERR!     at CsvParser._transform (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/csv-parser/index.js:253:16)
+ERR!     at CsvParser.Transform._read (_stream_transform.js:191:10)
+ERR!     at CsvParser.Transform._write (_stream_transform.js:179:12)
+ERR!     at doWrite (_stream_writable.js:403:12)
+ERR!     at writeOrBuffer (_stream_writable.js:387:5)
+ERR!     at CsvParser.Writable.write (_stream_writable.js:318:11)
+ERR!     at /Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/highland/lib/index.js:640:33
+ERR!     at Stream.s._send (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/highland/lib/index.js:1560:9)
+ERR!     at Stream.write (/Users/nishugoel/.npm/_npx/15630/lib/node_modules/@commercetools/csv-parser-orders/node_modules/highland/lib/index.js:1661:18)
